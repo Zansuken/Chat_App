@@ -108,6 +108,14 @@ footer p {
     border-radius: 10px;
 }
 
+.chat_img {
+    display: flex;
+    flex-direction: row;
+    width: 135px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
 header {
     background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     width: 100%;
@@ -158,5 +166,11 @@ h2 {
 }
 
 main {
-    margin-top: 100px;
+    margin: 20px 8px 20px 8px;
+}
+
+.chat1, .chat2, .chat5 {
+    width: 110px;
+    background-color: rgba(237,229,244,255);
+    padding: 3px 40px 3px 3px;
 }
