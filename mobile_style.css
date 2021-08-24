@@ -22,18 +22,23 @@ h2 {
     color: hsl(276, 100%, 81%);
 }
 
-.chat1, .chat2, .chat5 {
+.chat1 p, .chat2 p, .chat5 p {
     color: hsl(276, 55%, 52%);
     text-align: left;
+    font-weight: 500;
+    margin: 5px 0;
 }
 
-.chat3, .chat4 {
+.chat3 p, .chat4 p {
     color: hsl(271, 15%, 43%);
     text-align: right;
+    font-weight: 500;
+    margin: 5px 0;
 }
 
 .chat6 p, .chat7 p {
     color: white;
+    font-weight: 500;
 }
 
 .price {
@@ -166,11 +171,147 @@ h2 {
 }
 
 main {
-    margin: 20px 8px 20px 8px;
+    margin: 20px 8px 15px 8px;
 }
 
 .chat1, .chat2, .chat5 {
-    width: 110px;
+    width: 85px;
     background-color: rgba(237,229,244,255);
-    padding: 3px 40px 3px 3px;
+    padding: 3px 40px 1px 8px;
+    border-radius: 10px 10px 10px 3px;
+    line-height: 0.8em;
+}
+
+.chat3, .chat4 {
+    width: 110px;
+    background-color: white;
+    padding: 0px 8px 1px 8px;
+    border-radius: 10px 10px 3px 10px;
+    margin-left: 108px;
+    text-align: left;
+    line-height: 0.8em;
+    box-shadow: 2px 5px 50px -13px gray;
+}
+
+.chat1 {
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.chat1 p {
+    width: 111px;
+}
+
+.chat2 {
+    margin-bottom: 15px;
+}
+
+.chat2 p {
+    width: 111px;
+}
+
+.chat3, .chat4 {
+    padding-top: 3px;
+    margin-top: 5px;
+}
+
+.chat3 p {
+    width: 115px;
+    text-align: left;
+    margin: 3px 0 3px 0;
+}
+
+.chat4 {
+    width: 70px;
+    margin-top: 8px;
+    margin-left: 147px;
+}
+
+.chat4 p {
+    width: 68px;
+    margin: 3px 0 3px 0;
+}
+
+.chat5 {
+    margin-top: 20px;
+}
+
+.chat5 p {
+    width: 111px;
+}
+
+.chat6, .chat7 {
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));   
+    border-radius: 10px 10px 10px 3px;
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.chat6 p, .chat7 p {
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+
+.checkbox {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.time1 {
+    position: relative;
+    left: -25px;
+}
+
+.time2 {
+    position: relative;
+    left: -32px;
+}
+.price {
+    position: relative;
+    top: -2px;
+    left: -15px;
+}
+
+footer {
+    background-color: white;
+    height: 35px;
+    margin: 0 8px 10px 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.send_button {
+    width: 25px;
+    height: 25px;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    right: 5px;
+
+}
+
+.right_arrow {
+    background: url(./images/left_arrow.svg);
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 6px;
+    left: 8px;
+    transform: rotate(180deg);
+}
+
+footer p {
+    padding-top: 7px;
+    padding-left: 20px;
 }
