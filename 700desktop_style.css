@@ -1,0 +1,12 @@
+@media only screen and (min-width: 700px) and (max-width: 1439px) {
+    .description {
+        position: absolute;
+        left: 350px;
+        top: 70px;
+    }
+
+    .description h1, .description p {
+        text-align: left;
+        max-width: 441px;
+    }
+}

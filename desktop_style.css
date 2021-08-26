@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1440px) {
+
+    body {
+        width: 1400px;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .background {
+        transform: translateX(-100px);
+        transition: 0.3s;
+    }
+
+    .smartphone_layout {
+        transform: translate(300px, 50px);
+        transition: 0.3s;
+    }
+    
+    .description {
+        position: absolute;
+        left: 750px;
+        top: 120px;
+        transition: 0.3s;
+    }
+
+    .description h1, .description p {
+        text-align: left;
+        max-width: 441px;
+        transition: 0.3s;
+    }
+
+    .background2 {
+        width: 500px;
+        height: 1000px;
+        background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-radius: 0 0 250px 250px;
+        transform: translateX(1130px) translateY(-430px) rotate(180deg);
+        z-index: 9;
+        opacity: 0.03;
+        position: fixed;
+    }
+
+}
