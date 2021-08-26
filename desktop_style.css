@@ -8,25 +8,24 @@
 
     .background {
         transform: translateX(-100px);
-        transition: 0.3s;
     }
 
     .smartphone_layout {
         transform: translate(300px, 50px);
-        transition: 0.3s;
+        transition: 1s;
     }
     
     .description {
         position: absolute;
         left: 750px;
         top: 120px;
-        transition: 0.3s;
+        transition: 1s;
     }
 
     .description h1, .description p {
         text-align: left;
         max-width: 441px;
-        transition: 0.3s;
+        transition: 1s;
     }
 
     .background2 {
