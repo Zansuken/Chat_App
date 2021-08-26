@@ -83,6 +83,7 @@ footer p {
     top: 70px;
     left: 53px;
     width: 250px;
+    height: 517px;
     border: solid 10px white;
     border-radius: 25px;
     background-color: hsl(270, 20%, 96%);
@@ -111,6 +112,12 @@ footer p {
 .dog_pic {
     width: 40px;
     border-radius: 10px;
+}
+
+.chat_img a:active {
+    transform: scale(5);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .chat_img {
@@ -172,6 +179,20 @@ h2 {
 
 main {
     margin: 20px 8px 15px 8px;
+    position: absolute;
+    animation: chatAnimation 2.3s;
+}
+
+@keyframes chatAnimation {
+    from {
+        top: -464px;
+        opacity: 0.1;
+    }
+
+    to {
+        top: 68px;
+        opacity: 1;
+    }
 }
 
 .chat1, .chat2, .chat5 {
@@ -286,6 +307,8 @@ footer {
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: 405px;
 }
 
 .send_button {
@@ -314,4 +337,15 @@ footer {
 footer p {
     padding-top: 7px;
     padding-left: 20px;
+}
+
+.description {
+    margin-top: 160px;
+}
+
+.description p {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    line-height: 1.7em;
 }
