@@ -44,7 +44,8 @@ Users should be able to:
 ### What I learned
 
 More designed transition and transform properties animations on hover and more for the CSS part.
-I designed a full mobile "looking like" layout form scratch
+I designed a full mobile "looking like" layout form scratch.
+Background position and design.
 
 ### Continued development
 
