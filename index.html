@@ -131,6 +131,30 @@
 
     </div>
 
+    <script>
+        const dogs = document.querySelectorAll(".dog_pic");
+        for (const dog of dogs) {
+            let checked = false;
+            dog.addEventListener('click', () => {
+            if (checked === false) {
+                dog.style.transform = "scale(4) translateX(-50%)";
+                dog.style.left = "75%";
+                dog.style.zIndex = "10";
+                dog.style.position = "absolute";
+                checked = true;
+            } else {
+                dog.style.transform = "scale(1) translateX(0%)";
+                dog.style.left = "0";
+                dog.style.zIndex = "1";
+                dog.style.position = "relative";
+                dog.style.overflow = "hidden";
+                checked = false;
+            }
+        })
+        }
+        
+
+    </script>
 </body>
 
 </html>

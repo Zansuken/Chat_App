@@ -11,8 +11,10 @@
     }
 
     .smartphone_layout {
+        height: 65vh;
+        width: 20vw;
         transform: translate(300px, 50px);
-        transition: 1s;
+        transition: 1s ease-in-out;
     }
     
     .description {
@@ -37,6 +39,12 @@
         z-index: 9;
         opacity: 0.03;
         position: fixed;
+    }
+
+    .body_flex .smartphone_layout {
+        transform: scale(1.2);
+        left: 300px;
+        top: 150px;
     }
 
 }
