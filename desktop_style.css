@@ -11,8 +11,6 @@
     }
 
     .smartphone_layout {
-        height: 65vh;
-        width: 20vw;
         transform: translate(300px, 50px);
         transition: 1s ease-in-out;
     }

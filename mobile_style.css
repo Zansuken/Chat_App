@@ -94,6 +94,7 @@ footer p {
     display: flex;
     position: absolute;
     left: 50%;
+    top: -1px;
     transform: translateX(-50%);
     background-color: white;
     width: 140px;
